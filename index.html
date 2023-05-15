@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bakery Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-birthday-cake"></i> For Goodness' Cake! </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#product">product</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+
+    <!-- header end -->
+
+    <!-- shopping cart -->
+
+    <div class="cart-items-container">
+
+        <div id="close-form" class="fas fa-times"></div>
+        <h3 class="title">checkout</h3>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/product-1.jpg" alt="">
+            <div class="content">
+                <h3>Item 1 - cheesecakes</h3>
+                <div class="price">₱1,080.00-</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/product-4.jpg" alt="">
+            <div class="content">
+                <h3>Item 2 - Fresh Bread</h3>
+                <div class="price">₱122.00-</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/product-10.jpg" alt="">
+            <div class="content">
+                <h3>Item 3 - Dessert Box</h3>
+                <div class="price">₱710.00-</div>
+            </div>
+        </div>
+
+        <a href="#" class="btn"> checkout </a>
+
+    </div>
+
+    <!-- shopping cart end-->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/slider1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Life is short, Eat dessert first.</h3>
+                        <a href="#" class="btn"> Shop now! </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider2.png) no-repeat;">
+                    <div class="content">
+                        <h3>Life is short, Eat dessert first.</h3>
+                        <a href="#" class="btn"> Shop now! </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about us -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Indulge in the finest <span>pastries and desserts </span> </h3>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                      sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- about us end-->
+
+    <!-- product -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading">our <span> products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cheesecake Collection</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">₱1,080.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">₱888.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cupcakes</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">₱190.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fresh Bread</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">₱122.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Donuts</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">₱145.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pancake & Waffle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">₱110.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Macaroons</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">₱95.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cookies</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">₱50.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Beverages</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">₱100.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Dessert Box</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">₱710.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+
+    <!-- product end-->
+
+
+    <!-- gallery -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">our <span> gallery</span></h1>
+
+        <div class="gallery-container">
+
+            <a href="images/gallery1.jpg" class="box">
+                <img src="images/gallery1.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/gallery2.jpg" class="box">
+                <img src="images/gallery2.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/gallery3.jpg" class="box">
+                <img src="images/gallery3.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/gallery4.jpg" class="box">
+                <img src="images/gallery4.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/gallery5.jpg" class="box">
+                <img src="images/gallery5.jpg" alt="">
+                <div class="icons"><i class="fas fa-plus"></i></div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- gallery end -->
+
+    <!-- amazing discounts -->
+
+    <section class="promotion">
+
+        <h1 class="heading">amazing <span>discounts</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="content">
+                    <h3>10 Types of Cheesecake 25% LESS!</h3>
+                    <p>Featuring ten different cheesecake flavors and designs in one cake.</p>
+                </div>
+
+                <img src="images/promotion1.png" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/promotion2.png" alt="">
+                <div class="content">
+                    <h3>Truffle Cake 40% LESS!</h3>
+                    <p>A moist chocolate cake, fluffy whipped chocolate ganache and frosted with rich.</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- amazing discounts ends -->
+
+    <!-- review -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/review-1.png" class="user" alt="">
+                <h3>jeon jungkook</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>The best cakes and pancakes! The ambiance is great! I would definitely be coming back because their sweets are the BEST!</p>
+            </div>
+
+            <div class="box">
+                <img src="images/review-2.png" class="user" alt="">
+                <h3>angelina jolie</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>We ordered for the first time this weekend- half a sheet cake for my dad's surprise party. It was absolutely delicious! Definitely our new go-pastry shop</p>
+            </div>
+
+            <div class="box">
+                <img src="images/review-3.png" class="user" alt="">
+                <h3>Atty. Rolen Paulino Jr.</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>I had a special request about how the cupcakes were boxed. They responded to my email and when I picked up my cupcakes it was done just as I requested. As usual, the cupcakes were delicious! The only hard part is choosing between all the yummy flavors.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review -->
+
+    <!-- order -->
+
+    <section class="order" id="order">
+
+        <h1 class="heading"><span>order</span> now </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/order 1.gif" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address">
+                    <input type="number" placeholder="phone number">
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" placeholder="food name">
+                    <input type="number" placeholder="how much">
+                </div>
+
+                <textarea placeholder="your address" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- order end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>address</h3>
+                <p>Lot 4 Halfmoon beach, Kalaklan. Olongapo City Zambales</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>E-mail</h3>
+                <a href="#" class="link">forgoodness_cake@gmail.com</a>
+                <a href="#" class="link">forgoodness_cake@yahoo.com</a>
+            </div>
+
+            <div class="box">
+                <h3>call us</h3>
+                <p>+6306 463 8061</p>
+                <p>8864-2351</p>
+            </div>
+
+            <div class="box">
+                <h3> opening hours</h3>
+                <p>Monday - Friday: 9:00am - 10:00pm <br>Saturday - Sunday: 8:00am - 11:00pm </p>
+            </div>
+
+        </div>
+
+        <div class="credit">store owner: <span>marquisha azia aguirre</span> est. 2021 </div>
+
+    </section>
+
+    <!-- footer ends -->
+
+    <!-- scroll top button -->
+
+    <a href="#" class="scroll-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- scroll top button end -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+    
+</body>
+</html>
